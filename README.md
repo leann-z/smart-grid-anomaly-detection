@@ -1,6 +1,3 @@
-**CMSC678 Final Report** project:  
-
----
 
 # **Enhancing Smart Grid Security: Anomaly and Novelty Detection for Electricity Theft**  
 
