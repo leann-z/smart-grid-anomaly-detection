@@ -9,8 +9,6 @@ The dataset used in this project is the SGCC (State Grid Corporation of China) e
 
 Download: [Google Drive](https://drive.google.com/drive/folders/14IsO1rKoJ4cHIbozak2izHMmcNwAxlNt?usp=sharing)
 
-Place the downloaded file at `data/electricity_data.csv` before running any notebooks.
-
 ## **Features & Contributions**  
 - **Anomaly Detection:**  
   - Implemented **XGBoost** for theft detection, achieving **80% accuracy and 66% recall** after threshold adjustments.  
