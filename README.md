@@ -4,6 +4,13 @@
 ## **Project Overview**  
 Electricity theft is a significant challenge for modern smart grids, leading to financial losses and grid instability. This project focuses on applying machine learning techniques for **anomaly and novelty detection** in electricity consumption data. By leveraging models such as **XGBoost, LSTM, Random Forest, and Local Outlier Factor (LOF)**, the study explores methods to detect electricity theft while handling **class imbalance, contextual anomalies, and previously unseen patterns.**  
 
+## Dataset
+The dataset used in this project is the SGCC (State Grid Corporation of China) electricity consumption dataset.
+
+Download: [Google Drive](https://drive.google.com/drive/folders/14IsO1rKoJ4cHIbozak2izHMmcNwAxlNt?usp=sharing)
+
+Place the downloaded file at `data/electricity_data.csv` before running any notebooks.
+
 ## **Features & Contributions**  
 - **Anomaly Detection:**  
   - Implemented **XGBoost** for theft detection, achieving **80% accuracy and 66% recall** after threshold adjustments.  
@@ -31,7 +38,8 @@ Electricity theft is a significant challenge for modern smart grids, leading to 
 ## **Future Improvements**  
 - Fine-tune **LSTM hyperparameters** for better anomaly recall.  
 - Implement a **hybrid approach** combining XGBoost and LSTM.  
-- Explore **unsupervised learning techniques** like Autoencoders for anomaly detection.  
+- Explore **unsupervised learning techniques** like Autoencoders for anomaly detection.
+
 
 
 
